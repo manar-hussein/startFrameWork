@@ -1,0 +1,36 @@
+section
+{
+    color: var(--mainColor--);
+}
+h3::before{
+    background-color: var(--mainColor--) ;
+}
+h3::after{
+    background-color: var(--mainColor--) ;
+}
+.layer{
+  background-color: var(--secondaryColor--);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.col-md-4:hover .layer{
+    opacity: 100%;
+    cursor: pointer;
+}
+#toplayer{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999;
+    display: none;
+}

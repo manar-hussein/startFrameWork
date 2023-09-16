@@ -1,0 +1,29 @@
+:root{
+    --mainColor--:#2c3e50;
+    --secondaryColor--:#1abc9c
+}
+h3{
+    position: relative;
+}
+h3::before{
+    content: '';
+    width: 8%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(100%);
+    transform: translateX(150%);
+    right: 50%;
+}
+h3::after{
+    content: '';
+    width: 8%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(100%);
+    transform: translateX(-150%); 
+    left: 50%;
+}

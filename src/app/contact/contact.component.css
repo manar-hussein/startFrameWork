@@ -1,0 +1,17 @@
+section
+{
+    color: var(--mainColor--);
+}
+h3::before{
+    background-color: var(--mainColor--) ;
+}
+h3::after{
+    background-color: var(--mainColor--) ;
+}
+button{
+    background-color: var(--secondaryColor--);
+    color: white;
+}
+input:focus{
+    box-shadow: none ;
+}

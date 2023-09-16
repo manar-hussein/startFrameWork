@@ -1,0 +1,12 @@
+nav{
+    background-color: var(--mainColor--);
+    color: white;
+}
+a{
+    color: white;
+    font-weight: bolder;
+}
+.navActiv{
+    background-color: var(--secondaryColor--);
+    color: white;
+}

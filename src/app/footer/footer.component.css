@@ -1,0 +1,12 @@
+footer{
+    background-color: var(--mainColor--);
+    color: white;
+}
+
+.icon{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+section{
+    background-color: #1a252f;
+}
